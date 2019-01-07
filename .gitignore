@@ -1,0 +1,10 @@
+/log/
+/.springBeans
+/bin/
+/.settings/
+/.classpath
+/.project
+/target/
+/Users/
+/mvnw
+/mvnw.cmd
