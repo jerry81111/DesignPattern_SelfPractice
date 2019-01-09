@@ -1,35 +1,35 @@
 # DesignPattern_SelfPractice
 
-Strategy
+Strategy : 
 定義一系列的算法，把他們一個個封裝起來，使他們可以相互替換
 
-Observer
+Observer : 
 主題 + 觀察者 = 觀察者模式。一對多的依賴，當一個對象改變，依賴他的對象都會收到通知，並自動更新
 
-Decorator
+Decorator : 
 動態的將責任附加到對象上，較繼承輕鬆擴展功能
 
-Simple Factory
+Simple Factory : 
 工廠方法讓類別將實體化的動作，交由次類別進行。 工廠方法是一個抽象的方法，依賴次類別負責物件的建立
 
-Factory
+Factory : 
 工廠方法模式定義了一個建立物件的介面，但由子類決定要實例化的類別為何。工廠方法讓類別把 "實例化" 的動作推遲到了子類
 
-Abstract Factory
+Abstract Factory : 
 用一個抽象工廠來定義一個創建 產品族 的介面，產品族裡面每個產品的具體類別由繼承抽象工廠的實體工廠決定
 
-Singleton
+Singleton : 
 確保一個類只有一個實作，並提供全域訪問點
 
-Command(命令)
+Command(命令) : 
 將請求封裝成物件，讓你可使用不同的請求
 
-Adaptor
+Adaptor : 
 將一個類別的接口，轉換成客戶期望的接口
 
-Facade(外觀)
+Facade(外觀) : 
 提供了一個統一的接口，用來訪問子系統裡的一群接口
 
-Template(模板)
+Template(模板) : 
 在一個方法中定義一個算法的骨架，而將一些步驟延遲到子類別中
 
