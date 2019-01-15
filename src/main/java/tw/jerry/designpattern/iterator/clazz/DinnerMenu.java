@@ -2,7 +2,9 @@ package tw.jerry.designpattern.iterator.clazz;
 
 import java.util.Iterator;
 
-public class DinnerMenu {
+import tw.jerry.designpattern.iterator.inter.Menu;
+
+public class DinnerMenu implements Menu{
 
 	static final int MAX_ITEMS = 6;
 	int numberOfItems = 0;
@@ -27,6 +29,7 @@ public class DinnerMenu {
 		}
 	}
 
+	@Override
 	public Iterator<MenuItem> createIterator() {
 		return new DinnerMenuIterator(menuItems);
 	}

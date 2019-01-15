@@ -3,7 +3,9 @@ package tw.jerry.designpattern.iterator.clazz;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class PancakeHouseMenu {
+import tw.jerry.designpattern.iterator.inter.Menu;
+
+public class PancakeHouseMenu implements Menu{
 
 	ArrayList<MenuItem> menuItems;
 
@@ -24,7 +26,8 @@ public class PancakeHouseMenu {
 //	public ArrayList<MenuItem> getMenuItems() {
 //		return menuItems;
 //	}
-	
+
+	@Override
 	public Iterator<MenuItem> createIterator() {
 		return menuItems.iterator();
 	}
